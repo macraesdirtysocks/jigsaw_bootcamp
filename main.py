@@ -34,7 +34,7 @@ REMATCH = True
 
 # Inital greeting message printed slowly
 intro_message = "Welcome to another tic-tac-toe match!  Let's get to know the players!\n"
-print_slow(intro_message)
+# print_slow(intro_message)
 
 # Init first player
 player_1_info = player_create("Player 1")
@@ -56,7 +56,7 @@ game_message_tail = f"The board is ready and {test_game.first_to_play.name} play
 game_setup_message = f"{game_message_base}\n{game_message_tail}"
 
 # Print init message slowly.
-print_slow(game_setup_message)
+# print_slow(game_setup_message)
 
 # Outer while loop runs until no more matches are desired.
 while REMATCH is True:
