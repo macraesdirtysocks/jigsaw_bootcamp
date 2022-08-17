@@ -1,6 +1,7 @@
 from src.tic_tac_toe import play_tic_tac_toe
 from src.player import Player
 from helper_functions.print_slow import print_slow
+import sys
 
 REMATCH = True
 

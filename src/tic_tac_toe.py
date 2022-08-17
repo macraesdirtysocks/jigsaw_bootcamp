@@ -8,7 +8,6 @@ from helper_functions.possible_win_combos import possible_win_combinations
 from helper_functions.replay import replay
 from helper_functions.print_slow import print_slow
 import sys
-import copy
 
 def play_tic_tac_toe(player_1, player_2):
 
@@ -68,8 +67,8 @@ def play_tic_tac_toe(player_1, player_2):
     if WINNER is None:
         print("Tie game!")
     else:
-        print_slow("WINNER WINNER CHICKEN DINNER")
-        print_slow(f"Congratulations {CURRENT_PLAYER_TURN.name}")
+        print_slow("WINNER WINNER CHICKEN DINNER\n")
+        print_slow(f"Congratulations {CURRENT_PLAYER_TURN.name}\n")
         # time.sleep(5.0)
         sys.stdout.flush()
     
